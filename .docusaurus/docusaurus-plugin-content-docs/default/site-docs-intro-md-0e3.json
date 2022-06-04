@@ -1,19 +1,23 @@
 {
   "unversionedId": "intro",
   "id": "intro",
-  "title": "Protocol Intro",
-  "description": "",
+  "title": "Introduction",
+  "description": "BΞB is a web3 protocol for NFT communities capable of supporting different social applications such as chat rooms, social networks, forum boards, creators-fan groups, DAO toolings, etc.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
   "permalink": "/docs/intro",
   "draft": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+  "editUrl": "https://github.com/bebdotxyz/protocol/docs/intro.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "tutorialSidebar"
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "The BΞB NFT Community (NFTC)",
+    "permalink": "/docs/nft"
+  }
 }

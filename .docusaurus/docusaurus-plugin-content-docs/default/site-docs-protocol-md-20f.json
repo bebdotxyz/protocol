@@ -1,0 +1,27 @@
+{
+  "unversionedId": "protocol",
+  "id": "protocol",
+  "title": "The BΞB Community Protocol",
+  "description": "Once BΞB NFT Communities are operational are functional inside our first client (beb.xyz), we want to decentralize community operations in a permissionless fashion through the BΞB Community Protocol. The core elements of the BΞB Community Protocol is the Indexer.",
+  "source": "@site/docs/protocol.md",
+  "sourceDirName": ".",
+  "slug": "/protocol",
+  "permalink": "/docs/protocol",
+  "draft": false,
+  "editUrl": "https://github.com/bebdotxyz/protocol/docs/protocol.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The BΞB NFT Community (NFTC)",
+    "permalink": "/docs/nft"
+  },
+  "next": {
+    "title": "Data Models",
+    "permalink": "/docs/data"
+  }
+}

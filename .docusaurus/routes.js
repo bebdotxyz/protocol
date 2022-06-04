@@ -9,11 +9,35 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '25c'),
+    component: ComponentCreator('/docs', 'c0a'),
     routes: [
+      {
+        path: '/docs/conclusion',
+        component: ComponentCreator('/docs/conclusion', '187'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/data',
+        component: ComponentCreator('/docs/data', '501'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro', 'aed'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/nft',
+        component: ComponentCreator('/docs/nft', 'b41'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/protocol',
+        component: ComponentCreator('/docs/protocol', 'bd4'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

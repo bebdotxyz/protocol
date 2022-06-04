@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "BΞB NFT Community Protocol",
-  tagline: "This is a work in progress.",
+  title: "BΞB Protocol",
+  tagline: "The BΞB NFT Community protocol is a work in progress.",
   url: "https://docs.beb.xyz",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -37,15 +37,13 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/bebdotxyz/protocol",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/bebdotxyz/protocol",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -68,7 +66,7 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Introduction",
+            label: "Documentation",
           },
           {
             href: "https://github.com/bebdotxyz/protocol",
@@ -108,6 +106,14 @@ const config = {
           },
         ],
       },
+      metadata: [
+        { name: "twitter:card", content: "summary_large_image" },
+        {
+          name: "twitter:image",
+          content: "https://mint.beb.xyz/og-image800x419.jpeg",
+        },
+      ],
+
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

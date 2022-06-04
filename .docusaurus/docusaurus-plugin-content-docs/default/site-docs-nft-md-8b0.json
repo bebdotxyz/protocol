@@ -1,0 +1,27 @@
+{
+  "unversionedId": "nft",
+  "id": "nft",
+  "title": "The BΞB NFT Community (NFTC)",
+  "description": "The BΞB Indestructible Community is of the ERC-721 standard, in order to define an interface that is sufficient for an NFT Community (NFTC). A simplified interface is available as follow.",
+  "source": "@site/docs/nft.md",
+  "sourceDirName": ".",
+  "slug": "/nft",
+  "permalink": "/docs/nft",
+  "draft": false,
+  "editUrl": "https://github.com/bebdotxyz/protocol/docs/nft.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "The BΞB Community Protocol",
+    "permalink": "/docs/protocol"
+  }
+}

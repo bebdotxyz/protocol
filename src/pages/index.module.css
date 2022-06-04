@@ -21,3 +21,10 @@
   align-items: center;
   justify-content: center;
 }
+
+
+.main-text {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}

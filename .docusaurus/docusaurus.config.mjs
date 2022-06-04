@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "BΞB NFT Community Protocol",
-  "tagline": "This is a work in progress.",
+  "title": "BΞB Protocol",
+  "tagline": "The BΞB NFT Community protocol is a work in progress.",
   "url": "https://docs.beb.xyz",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
@@ -27,11 +27,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "/Users/robertgawdzik/src/protocol/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/bebdotxyz/protocol"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/bebdotxyz/protocol"
         },
         "theme": {
           "customCss": "/Users/robertgawdzik/src/protocol/src/css/custom.css"
@@ -51,7 +51,7 @@ export default {
           "type": "doc",
           "docId": "intro",
           "position": "left",
-          "label": "Introduction"
+          "label": "Documentation"
         },
         {
           "href": "https://github.com/bebdotxyz/protocol",
@@ -92,6 +92,16 @@ export default {
         }
       ]
     },
+    "metadata": [
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      },
+      {
+        "name": "twitter:image",
+        "content": "https://mint.beb.xyz/og-image800x419.jpeg"
+      }
+    ],
     "prism": {
       "theme": {
         "plain": {
@@ -308,7 +318,6 @@ export default {
         "autoCollapseCategories": false
       }
     },
-    "metadata": [],
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3

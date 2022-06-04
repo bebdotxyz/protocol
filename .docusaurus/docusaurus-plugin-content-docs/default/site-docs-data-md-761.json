@@ -1,0 +1,27 @@
+{
+  "unversionedId": "data",
+  "id": "data",
+  "title": "Data Models",
+  "description": "The Role model defines a set of properties listed below.",
+  "source": "@site/docs/data.md",
+  "sourceDirName": ".",
+  "slug": "/data",
+  "permalink": "/docs/data",
+  "draft": false,
+  "editUrl": "https://github.com/bebdotxyz/protocol/docs/data.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The BΞB Community Protocol",
+    "permalink": "/docs/protocol"
+  },
+  "next": {
+    "title": "Conclusion",
+    "permalink": "/docs/conclusion"
+  }
+}

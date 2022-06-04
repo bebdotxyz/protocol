@@ -11,8 +11,28 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "conclusion",
+              "path": "/docs/conclusion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data",
+              "path": "/docs/data",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nft",
+              "path": "/docs/nft",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "protocol",
+              "path": "/docs/protocol",
               "sidebar": "tutorialSidebar"
             }
           ],
