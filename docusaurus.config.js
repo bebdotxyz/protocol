@@ -7,6 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "BΞB NFT Community Protocol",
+  tagline: "This is a work in progress.",
   url: "https://docs.beb.xyz",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -98,6 +99,10 @@ const config = {
               {
                 label: "Twitter",
                 href: "https://twitter.com/bebdotxyz",
+              },
+              {
+                label: "Developers",
+                href: "https://dev.beb.xyz",
               },
             ],
           },

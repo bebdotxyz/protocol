@@ -5,6 +5,7 @@
  */
 export default {
   "title": "BΞB NFT Community Protocol",
+  "tagline": "This is a work in progress.",
   "url": "https://docs.beb.xyz",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
@@ -82,6 +83,10 @@ export default {
             {
               "label": "Twitter",
               "href": "https://twitter.com/bebdotxyz"
+            },
+            {
+              "label": "Developers",
+              "href": "https://dev.beb.xyz"
             }
           ]
         }
@@ -320,7 +325,6 @@ export default {
   "scripts": [],
   "stylesheets": [],
   "clientModules": [],
-  "tagline": "",
   "titleDelimiter": "|",
   "noIndex": false
 };
