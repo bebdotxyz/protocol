@@ -58,7 +58,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "BΞB NFT Community Protocol",
+        title: "BΞB",
         logo: {
           alt: "Logo",
           src: "img/logo.png",

@@ -41,7 +41,7 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "BΞB NFT Community Protocol",
+      "title": "BΞB",
       "logo": {
         "alt": "Logo",
         "src": "img/logo.png"
