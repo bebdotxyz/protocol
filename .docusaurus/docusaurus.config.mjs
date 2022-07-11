@@ -4,136 +4,151 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  title: "BΞB Protocol",
-  tagline: "The BΞB Social Protocol is a work in progress.",
-  url: "https://docs.beb.xyz",
-  baseUrl: "/",
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
-  trailingSlash: false,
-  organizationName: "bebdotxyz",
-  projectName: "protocol",
-  i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
-    localeConfigs: {},
+  "title": "BΞB Protocol",
+  "tagline": "The BΞB Social Protocol is a work in progress.",
+  "url": "https://docs.beb.xyz",
+  "baseUrl": "/",
+  "onBrokenLinks": "throw",
+  "onBrokenMarkdownLinks": "warn",
+  "favicon": "img/favicon.ico",
+  "trailingSlash": false,
+  "organizationName": "bebdotxyz",
+  "projectName": "protocol",
+  "i18n": {
+    "defaultLocale": "en",
+    "locales": [
+      "en"
+    ],
+    "localeConfigs": {}
   },
-  presets: [
+  "presets": [
     [
       "classic",
       {
-        docs: {
-          sidebarPath: "/Users/robertgawdzik/src/protocol/sidebars.js",
-          editUrl: "https://github.com/bebdotxyz/protocol",
+        "docs": {
+          "sidebarPath": "/Users/robertgawdzik/src/protocol/sidebars.js",
+          "editUrl": "https://github.com/bebdotxyz/protocol"
         },
-        blog: {
-          showReadingTime: true,
-          editUrl: "https://github.com/bebdotxyz/protocol",
+        "blog": {
+          "showReadingTime": true,
+          "editUrl": "https://github.com/bebdotxyz/protocol"
         },
-        theme: {
-          customCss: "/Users/robertgawdzik/src/protocol/src/css/custom.css",
-        },
-      },
-    ],
+        "theme": {
+          "customCss": "/Users/robertgawdzik/src/protocol/src/css/custom.css"
+        }
+      }
+    ]
   ],
-  themeConfig: {
-    navbar: {
-      title: "BΞB",
-      logo: {
-        alt: "Logo",
-        src: "img/logo.png",
+  "themeConfig": {
+    "navbar": {
+      "title": "BΞB",
+      "logo": {
+        "alt": "Logo",
+        "src": "img/logo.png"
       },
-      items: [
+      "items": [
         {
-          type: "doc",
-          docId: "intro",
-          position: "left",
-          label: "Documentation",
+          "type": "doc",
+          "docId": "intro",
+          "position": "left",
+          "label": "Documentation"
         },
         {
-          href: "https://github.com/bebdotxyz/protocol",
-          label: "GitHub",
-          position: "right",
-        },
+          "href": "https://github.com/bebdotxyz/protocol",
+          "label": "GitHub",
+          "position": "right"
+        }
       ],
-      hideOnScroll: false,
+      "hideOnScroll": false
     },
-    footer: {
-      style: "dark",
-      links: [
+    "footer": {
+      "style": "dark",
+      "links": [
         {
-          title: "Docs",
-          items: [
+          "title": "Docs",
+          "items": [
             {
-              label: "Protocol",
-              to: "/docs/intro",
-            },
-          ],
+              "label": "Protocol",
+              "to": "/docs/intro"
+            }
+          ]
         },
         {
-          title: "Social",
-          items: [
+          "title": "Social",
+          "items": [
             {
-              label: "BΞB Social",
-              href: "https://beb.xyz",
+              "label": "BΞB Social",
+              "href": "https://beb.xyz"
             },
             {
-              label: "Twitter",
-              href: "https://twitter.com/bebdotxyz",
+              "label": "Twitter",
+              "href": "https://twitter.com/bebdotxyz"
             },
             {
-              label: "Developers",
-              href: "https://dev.beb.xyz",
-            },
-          ],
-        },
-      ],
+              "label": "Developers",
+              "href": "https://dev.beb.xyz"
+            }
+          ]
+        }
+      ]
     },
-    metadata: [
+    "metadata": [
       {
-        name: "twitter:card",
-        content: "summary_large_image",
+        "name": "twitter:card",
+        "content": "summary_large_image"
       },
       {
-        name: "twitter:image",
-        content: "https://mint.beb.xyz/og-image800x419.jpeg",
-      },
+        "name": "twitter:image",
+        "content": "https://mint.beb.xyz/og-image800x419.jpeg"
+      }
     ],
-    prism: {
-      theme: {
-        plain: {
-          color: "#393A34",
-          backgroundColor: "#f6f8fa",
+    "prism": {
+      "theme": {
+        "plain": {
+          "color": "#393A34",
+          "backgroundColor": "#f6f8fa"
         },
-        styles: [
+        "styles": [
           {
-            types: ["comment", "prolog", "doctype", "cdata"],
-            style: {
-              color: "#999988",
-              fontStyle: "italic",
-            },
+            "types": [
+              "comment",
+              "prolog",
+              "doctype",
+              "cdata"
+            ],
+            "style": {
+              "color": "#999988",
+              "fontStyle": "italic"
+            }
           },
           {
-            types: ["namespace"],
-            style: {
-              opacity: 0.7,
-            },
+            "types": [
+              "namespace"
+            ],
+            "style": {
+              "opacity": 0.7
+            }
           },
           {
-            types: ["string", "attr-value"],
-            style: {
-              color: "#e3116c",
-            },
+            "types": [
+              "string",
+              "attr-value"
+            ],
+            "style": {
+              "color": "#e3116c"
+            }
           },
           {
-            types: ["punctuation", "operator"],
-            style: {
-              color: "#393A34",
-            },
+            "types": [
+              "punctuation",
+              "operator"
+            ],
+            "style": {
+              "color": "#393A34"
+            }
           },
           {
-            types: [
+            "types": [
               "entity",
               "url",
               "symbol",
@@ -143,139 +158,182 @@ export default {
               "constant",
               "property",
               "regex",
-              "inserted",
+              "inserted"
             ],
-            style: {
-              color: "#36acaa",
-            },
+            "style": {
+              "color": "#36acaa"
+            }
           },
           {
-            types: ["atrule", "keyword", "attr-name", "selector"],
-            style: {
-              color: "#00a4db",
-            },
+            "types": [
+              "atrule",
+              "keyword",
+              "attr-name",
+              "selector"
+            ],
+            "style": {
+              "color": "#00a4db"
+            }
           },
           {
-            types: ["function", "deleted", "tag"],
-            style: {
-              color: "#d73a49",
-            },
+            "types": [
+              "function",
+              "deleted",
+              "tag"
+            ],
+            "style": {
+              "color": "#d73a49"
+            }
           },
           {
-            types: ["function-variable"],
-            style: {
-              color: "#6f42c1",
-            },
+            "types": [
+              "function-variable"
+            ],
+            "style": {
+              "color": "#6f42c1"
+            }
           },
           {
-            types: ["tag", "selector", "keyword"],
-            style: {
-              color: "#00009f",
-            },
-          },
-        ],
+            "types": [
+              "tag",
+              "selector",
+              "keyword"
+            ],
+            "style": {
+              "color": "#00009f"
+            }
+          }
+        ]
       },
-      darkTheme: {
-        plain: {
-          color: "#F8F8F2",
-          backgroundColor: "#282A36",
+      "darkTheme": {
+        "plain": {
+          "color": "#F8F8F2",
+          "backgroundColor": "#282A36"
         },
-        styles: [
+        "styles": [
           {
-            types: ["prolog", "constant", "builtin"],
-            style: {
-              color: "rgb(189, 147, 249)",
-            },
+            "types": [
+              "prolog",
+              "constant",
+              "builtin"
+            ],
+            "style": {
+              "color": "rgb(189, 147, 249)"
+            }
           },
           {
-            types: ["inserted", "function"],
-            style: {
-              color: "rgb(80, 250, 123)",
-            },
+            "types": [
+              "inserted",
+              "function"
+            ],
+            "style": {
+              "color": "rgb(80, 250, 123)"
+            }
           },
           {
-            types: ["deleted"],
-            style: {
-              color: "rgb(255, 85, 85)",
-            },
+            "types": [
+              "deleted"
+            ],
+            "style": {
+              "color": "rgb(255, 85, 85)"
+            }
           },
           {
-            types: ["changed"],
-            style: {
-              color: "rgb(255, 184, 108)",
-            },
+            "types": [
+              "changed"
+            ],
+            "style": {
+              "color": "rgb(255, 184, 108)"
+            }
           },
           {
-            types: ["punctuation", "symbol"],
-            style: {
-              color: "rgb(248, 248, 242)",
-            },
+            "types": [
+              "punctuation",
+              "symbol"
+            ],
+            "style": {
+              "color": "rgb(248, 248, 242)"
+            }
           },
           {
-            types: ["string", "char", "tag", "selector"],
-            style: {
-              color: "rgb(255, 121, 198)",
-            },
+            "types": [
+              "string",
+              "char",
+              "tag",
+              "selector"
+            ],
+            "style": {
+              "color": "rgb(255, 121, 198)"
+            }
           },
           {
-            types: ["keyword", "variable"],
-            style: {
-              color: "rgb(189, 147, 249)",
-              fontStyle: "italic",
-            },
+            "types": [
+              "keyword",
+              "variable"
+            ],
+            "style": {
+              "color": "rgb(189, 147, 249)",
+              "fontStyle": "italic"
+            }
           },
           {
-            types: ["comment"],
-            style: {
-              color: "rgb(98, 114, 164)",
-            },
+            "types": [
+              "comment"
+            ],
+            "style": {
+              "color": "rgb(98, 114, 164)"
+            }
           },
           {
-            types: ["attr-name"],
-            style: {
-              color: "rgb(241, 250, 140)",
-            },
-          },
-        ],
+            "types": [
+              "attr-name"
+            ],
+            "style": {
+              "color": "rgb(241, 250, 140)"
+            }
+          }
+        ]
       },
-      additionalLanguages: [],
-      magicComments: [
+      "additionalLanguages": [],
+      "magicComments": [
         {
-          className: "theme-code-block-highlighted-line",
-          line: "highlight-next-line",
-          block: {
-            start: "highlight-start",
-            end: "highlight-end",
-          },
-        },
-      ],
+          "className": "theme-code-block-highlighted-line",
+          "line": "highlight-next-line",
+          "block": {
+            "start": "highlight-start",
+            "end": "highlight-end"
+          }
+        }
+      ]
     },
-    colorMode: {
-      defaultMode: "light",
-      disableSwitch: false,
-      respectPrefersColorScheme: false,
+    "colorMode": {
+      "defaultMode": "light",
+      "disableSwitch": false,
+      "respectPrefersColorScheme": false
     },
-    docs: {
-      versionPersistence: "localStorage",
-      sidebar: {
-        hideable: false,
-        autoCollapseCategories: false,
-      },
+    "docs": {
+      "versionPersistence": "localStorage",
+      "sidebar": {
+        "hideable": false,
+        "autoCollapseCategories": false
+      }
     },
-    tableOfContents: {
-      minHeadingLevel: 2,
-      maxHeadingLevel: 3,
-    },
+    "tableOfContents": {
+      "minHeadingLevel": 2,
+      "maxHeadingLevel": 3
+    }
   },
-  baseUrlIssueBanner: true,
-  onDuplicateRoutes: "warn",
-  staticDirectories: ["static"],
-  customFields: {},
-  plugins: [],
-  themes: [],
-  scripts: [],
-  stylesheets: [],
-  clientModules: [],
-  titleDelimiter: "|",
-  noIndex: false,
+  "baseUrlIssueBanner": true,
+  "onDuplicateRoutes": "warn",
+  "staticDirectories": [
+    "static"
+  ],
+  "customFields": {},
+  "plugins": [],
+  "themes": [],
+  "scripts": [],
+  "stylesheets": [],
+  "clientModules": [],
+  "titleDelimiter": "|",
+  "noIndex": false
 };
