@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "BΞB Protocol",
-  tagline: "The BΞB NFT Community protocol is a work in progress.",
+  tagline: "The BΞB Social Protocol is a work in progress.",
   url: "https://docs.beb.xyz",
   baseUrl: "/",
   onBrokenLinks: "throw",
