@@ -91,7 +91,7 @@ const config = {
             title: "Social",
             items: [
               {
-                label: "BΞB NFT Communities",
+                label: "BΞB Social",
                 href: "https://beb.xyz",
               },
               {
